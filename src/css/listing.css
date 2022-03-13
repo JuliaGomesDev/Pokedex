@@ -1,0 +1,72 @@
+.listing {
+    max-width: 200px;
+}
+
+.listing .pokemon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    background-color: #6b727a;
+    color: #ffffff;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.15s ease-in-out;
+}
+
+.listing .pokemon:hover {
+    transform: scale(1.05);
+}
+
+.listing .pokemon.type-fire:hover {
+    background-color: #f65944;
+}
+
+.listing .pokemon.type-eletric:hover {
+    background-color: #fcc719;
+}
+
+.listing .pokemon.type-water:hover {
+    background-color: #76eefe;
+}
+
+.listing .pokemon.type-water:hover {
+    background-color: #76eefe;
+}
+
+.listing .pokemon.type-grass:hover {
+    background-color: #49d0b0;
+}
+
+.listing .pokemon.type-darkness:hover {
+    background-color: #ba68c8;
+}
+
+.listing .pokemon.type-dragon:hover {
+    background-color: #208370;
+}
+
+.listing .pokemon.type-normal:hover {
+    background-color: #eedb71;
+}
+
+.listing .pokemon.type-fairy:hover {
+    background-color: #f6819c;
+}
+
+.listing .pokemon img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.listing .pokemon span {
+    padding-right: 10px;
+}             
+
+.listing .pokemon.active {
+    background-color: #fa6668;
+}

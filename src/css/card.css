@@ -1,11 +1,15 @@
 .card-pokemon{
     display: none;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
 }
 
 .card-pokemon .card-top {
-    background-color: red;
+    background-image: url(../images/pokebola.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 15px;
     padding: 30px 40px 0;
 }
 
@@ -19,7 +23,7 @@
     opacity: 0.7;
     border-radius: 10px;
     padding: 2px 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
 }
 
 .card-pokemon .details{
@@ -32,7 +36,6 @@
 .card-pokemon .card-image {
     width: 350px;
     height: 350px;
-    background-color: blue;
 }
 
 .card-pokemon img {
@@ -69,5 +72,37 @@
 
 .card-pokemon.open {
     display: block;
+}
+
+.type-fire {
+    background-color: #f65944;
+}
+
+.type-eletric {
+    background-color: #fcc719;
+}
+
+.type-water {
+    background-color: #76eefe;
+}
+
+.type-grass {
+    background-color: #49d0b0;
+}
+
+.type-darkness {
+    background-color: #ba68c8;
+}
+
+.type-dragon {
+    background-color: #208370;
+}
+
+.type-normal {
+    background-color: #eedb71;
+}
+
+.type-fairy {
+    background-color: #f6819c;
 }
 
