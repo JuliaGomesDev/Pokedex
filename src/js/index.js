@@ -15,10 +15,8 @@ listSelectionPokemons.forEach(pokemon => {
         const pokemonListingActive = document.querySelector('.active')
         pokemonListingActive.classList.remove('active')
 
-        const classTypeHover = pokemon.classList[1]
         const pokemonListingSelected = document.getElementById(idPokemonSelected)
-        pokemonListingSelected.classList.remove(classTypeHover)
-        pokemonListingSelected.classList.add('active') 
+        pokemonListingSelected.classList.add('active')       
     })
 })
 
